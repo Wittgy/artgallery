@@ -164,6 +164,15 @@ header.backImage .container {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+
+  header.backImage .row {
+    flex-wrap: nowrap;
+  }
+
+  header.backImage .col-md-8,
+  header.backImage .col-md-4 {
+    min-width: 0;
+  }
   
   #mainNavbar .navbar-nav {
     column-gap: 1.5rem;
@@ -196,6 +205,7 @@ header.backImage .container {
 
 /* ── CAROUSEL ── */
 .carousel {
+  width: 100%;
   max-width: 100%;
   border-radius: var(--radius-lg);
   overflow: hidden;
